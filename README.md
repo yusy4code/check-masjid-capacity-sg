@@ -1,7 +1,7 @@
 # check-masjid-capacity-sg
 Simple app to view the Singapore masjid available slots for daily prayer
 
-- In view of COVID-19 situation, **MUIS** (Masjid Ulama Islam Singapura) comes up with the approach of booking prayer sessions via their website. 
+- In view of COVID-19 situation, **MUIS** (Majlis Ugama Islam Singapura) comes up with the approach of booking prayer sessions via their website. 
 
 - Each Masjid can take max of 50 people for single prayer. But currently there is no option to view the overall booking availability for all Masjid at once.
 
