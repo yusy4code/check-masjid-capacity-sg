@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Masjid Capacity Availability - Daily Prayers | Singapore</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Masjid Capacity Availability - Daily Prayers</h1>
+      <p id="today"></p>
+      <a class="button" href="#tomorrow">View Tomorrow's Availability</a>
+      <br />
+      <input
+        type="text"
+        id="myInput"
+        onkeyup="filterMasjid()"
+        placeholder="Search for Masjid.."
+      />
+      <table id="today-table">
+        <tr>
+          <th>Masjid Name</th>
+          <th>Location</th>
+          <th>Fajar</th>
+          <th>Zohar</th>
+          <th>Asar</th>
+          <th>Magrib</th>
+          <th>Isha</th>
+        </tr>
+      </table>
+      <!-- <ul id="masjid-list-today"></ul> -->
+      <p id="tomorrow"></p>
+      <a class="button" href="#today">View Today's Availability</a>
+      <!-- <ul id="masjid-list-tomorrow"></ul> -->
+      <table id="tomorrow-table">
+        <tr>
+          <th>Masjid Name</th>
+          <th>Location</th>
+          <th>Fajar</th>
+          <th>Zohar</th>
+          <th>Asar</th>
+          <th>Magrib</th>
+          <th>Isha</th>
+        </tr>
+      </table>
+    </div>
+    <script src="masjidList.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
