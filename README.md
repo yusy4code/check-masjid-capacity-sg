@@ -8,5 +8,3 @@ Simple app to view the Singapore masjid available slots for daily prayer
 - Thus, this simple app will help to view and search the Masjid across Singapore and get the available capacity for each prayer. It will show only for current day and the next day.
 
 The data is being fetched from MUIS website https://ourmosques.commonspaces.sg/
-
-The app is live at [here](https://festive-darwin-b4619e.netlify.app/)
